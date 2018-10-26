@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "53826403913",
+    "firebase_url": "https://timetable-8f0aa.firebaseio.com",
+    "project_id": "timetable-8f0aa",
+    "storage_bucket": "timetable-8f0aa.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:53826403913:android:c59895b784b260f5",
+        "android_client_info": {
+          "package_name": "com.example.lenovo.itmgoitimetableapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "53826403913-u4mv6vp9ujtoit0l2slqaqeb1707ac4v.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.lenovo.itmgoitimetableapp",
+            "certificate_hash": "2e443bcfa2f079346f1a2c0cc55887c1aa97eaa8"
+          }
+        },
+        {
+          "client_id": "53826403913-5891d04becbchrbgr7e7vkfrq23p92it.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAxkfLiDjx1uvbeeb5_M_Z6UXWD3ZUmrns"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "53826403913-5891d04becbchrbgr7e7vkfrq23p92it.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

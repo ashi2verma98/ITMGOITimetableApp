@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.lenovo.itmgoitimetableapp">
+
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="ITM GOI"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        tools:ignore="GoogleAppIndexingWarning">
+        <activity android:name=".MainActivity" />
+        <activity android:name=".splash">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".navigation"
+            android:label="Home"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".TimeTable"
+            android:label="TimeTable" />
+        <activity
+            android:name=".Faculty"
+            android:label="Admin" />
+        <activity
+            android:name=".AboutUs"
+            android:label="About Us" />
+        <activity
+            android:name=".login"
+            android:label="Login For Admin" />
+        <activity android:name=".Choice" />
+        <activity android:name=".edittimetable" />
+        <activity android:name=".editfacultylist" />
+        <activity
+            android:name=".Facultytimetable"
+            android:label="Faculty" />
+        <activity
+            android:name=".loginfaculty"
+            android:label="Login For faculty" />
+        <activity android:name=".showfacultylist"></activity>
+    </application>
+
+</manifest>
